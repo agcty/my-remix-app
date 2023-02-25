@@ -1,4 +1,5 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { LinksFunction, MetaFunction } from "@remix-run/node";
+import stylesheet from "./tailwind.css";
 import {
   Links,
   LiveReload,
@@ -7,6 +8,10 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: stylesheet },
+];
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
