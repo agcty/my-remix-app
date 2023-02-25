@@ -24,6 +24,7 @@ export default function MyModal() {
       <Example />
       <Example />
       <Example />
+      <Example />
 
       {/* HeadlessUI Dialog, flickering appears on safari mobile (have to use real iPhone) */}
       <Transition appear show={open1} as={Fragment}>

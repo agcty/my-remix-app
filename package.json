@@ -4,8 +4,7 @@
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
-    "typecheck": "tsc",
-    "prisma": "prisma generate"
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.12",
